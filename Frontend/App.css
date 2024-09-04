@@ -1,0 +1,148 @@
+/* Overall Background */
+body {
+  background-color: #f0f4f8;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Main Container */
+.container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+/* Title Styling */
+.title {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #2c3e50;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+}
+
+/* Language Selector Styling */
+.language-select {
+  margin-bottom: 20px;
+  background-color: #ecf0f1;
+  padding: 10px;
+  border: 1px solid #bdc3c7;
+  border-radius: 5px;
+}
+
+.language-select label {
+  font-size: 18px;
+  color: #2c3e50;
+}
+
+.language-select select {
+  padding: 8px 12px;
+  border: 1px solid #bdc3c7;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Button Styling */
+.button-container {
+  margin-bottom: 20px;
+}
+
+.btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary {
+  background-color: #3498db;
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background-color: #2980b9;
+}
+
+.btn-success {
+  background-color: #2ecc71;
+  color: #fff;
+}
+
+.btn-success:hover {
+  background-color: #27ae60;
+}
+
+/* Code Editor Styling */
+.code-input {
+  width: 100%;
+  padding: 15px;
+  font-size: 16px;
+  font-family: 'Courier New', monospace;
+  border: 1px solid #bdc3c7;
+  border-radius: 5px;
+  background-color: #f7f9fa;
+  line-height: 1.5;
+}
+
+/* Status and Output Styling */
+.status {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #34495e;
+}
+
+.job-id {
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: #7f8c8d;
+}
+
+.time-detail {
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: #7f8c8d;
+}
+
+.output {
+  font-size: 16px;
+  margin-top: 20px;
+  padding: 15px;
+  color: #34495e;
+  background-color: #fcf8e3;
+  border: 1px solid #f1c40f;
+  border-radius: 5px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .container {
+    margin: 20px auto;
+    padding: 15px;
+  }
+
+  .title {
+    font-size: 28px;
+  }
+
+  .language-select, .button-container, .code-input {
+    margin-bottom: 15px;
+  }
+
+  .btn {
+    padding: 8px 16px;
+    font-size: 14px;
+  }
+
+  .status, .job-id, .time-detail, .output {
+    font-size: 14px;
+  }
+}
